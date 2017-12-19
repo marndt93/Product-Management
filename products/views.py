@@ -134,4 +134,4 @@ def load_products(request):
                 elevation=fields[5]
             )
             p.save()
-    return HttpResponseRedirect('views.index')
+    return HttpResponseRedirect('/index.html')

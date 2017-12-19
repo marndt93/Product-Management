@@ -1,15 +1,17 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 60px;
+  float: left;
 }
 
 .App-header {
+  position: relative;
   background-color: #222;
-  height: 150px;
+  height: 60px;
   padding: 20px;
   color: white;
 }
@@ -25,4 +27,36 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+table td {
+  width: 50px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+td#button{
+  width: 60px;
+}
+
+td#description{
+  width: 100px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+td#datetime{
+  width: 200px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+td#position{
+  width: 80px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
 }
